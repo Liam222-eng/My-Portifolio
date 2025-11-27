@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>About Bonface Nyakundi - Creative Designer</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24;
+            font-size: 24px;
+        }
+        .glossy-border {
+            position: relative;
+            overflow: hidden;
+        }
+        .glossy-border::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            border-radius: inherit;
+            padding: 1px; /* border-width */
+            background: linear-gradient(145deg, rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.05));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+        }
+    </style>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#891f2d",
+              "background-light": "#f8f6f6",
+              "background-dark": "#1f1314",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"]
+            },
+            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="font-display bg-gradient-to-br from-[#2a1a3d] to-[#1f1314] text-white/90 antialiased">
+<div class="relative flex min-h-screen w-full flex-col overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 px-4 sm:px-8 md:px-16 lg:px-24">
+<nav class="flex items-center justify-between whitespace-nowrap border-b border-solid border-white/10 bg-[#1f1314]/50 px-6 sm:px-10 py-3 backdrop-blur-md rounded-b-lg">
+<div class="flex items-center gap-4 text-white">
+<div class="size-6 text-[#FFD700]">
+<svg aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10.22 1.22a.75.75 0 0 0-1.44 0l-2.25 4.563a.75.75 0 0 0 .633 1.065h4.5a.75.75 0 0 0 .633-1.065l-2.25-4.563ZM10 12.75a.75.75 0 0 0-1.5 0v2.541l-1.37-1.37a.75.75 0 0 0-1.06 1.06l2.5 2.5a.75.75 0 0 0 1.06 0l2.5-2.5a.75.75 0 1 0-1.06-1.06l-1.37 1.37V12.75Z"></path><path clip-rule="evenodd" d="M3.003 6.003a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 1 0 1.06-1.06l-2.25-2.25ZM17.997 6.003a.75.75 0 0 0-1.06-1.06l-2.25 2.25a.75.75 0 1 0 1.06 1.06l2.25-2.25ZM6.003 17.997a.75.75 0 0 0 1.06-1.06l-2.25-2.25a.75.75 0 1 0-1.06 1.06l2.25 2.25ZM17.997 17.003a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.06-1.06l-2.25-2.25Z" fill-rule="evenodd"></path></svg>
+</div>
+<h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Bonface Nyakundi</h2>
+</div>
+<div class="hidden md:flex flex-1 justify-end gap-8">
+<div class="flex items-center gap-9">
+<a class="text-white/80 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Home</a>
+<a class="text-white text-sm font-bold leading-normal" href="#">About</a>
+<a class="text-white/80 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Portfolio</a>
+<a class="text-white/80 hover:text-white text-sm font-medium leading-normal transition-colors" href="#">Contact</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 px-4 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:brightness-110 transition-all shadow-lg shadow-primary/20">
+<span class="truncate">Get In Touch</span>
+</button>
+</div>
+<div class="md:hidden">
+<button class="text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+</header>
+<main class="flex flex-1 justify-center py-10 sm:py-16 px-4 sm:px-8">
+<div class="layout-content-container flex flex-col max-w-5xl flex-1 gap-12">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 @container">
+<div class="flex flex-col items-center lg:items-start lg:col-span-1">
+<div class="relative glossy-border rounded-xl shadow-2xl shadow-black/30">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-xl w-64 h-64 sm:w-80 sm:h-80 lg:w-full lg:h-auto" data-alt="Professional headshot of Bonface Nyakundi" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCKbwCZ_6ZJcr7wjtL00_LZqgB75_vRDEnzM6JPvVtawpSoRcgHEq4-1hKAoiW0PJ24kKjPRcq5SgqAtRSdHhzhFdOaoTRGLv9iStANH64Vxh6O1eB54fajXdza5j7sv6EOtWLh0Zhq08ivow_lDsvNMEGr9y2112Bvr03ni9lELYr1fO8_hKwIZEm67-x0JGoNAgRjwaGMT9toTaBOTgm5h-C5Va3YvIUegIoVMGR57iZ3RDnqFB6MmWjBHYUtl_aJgzIDe1WZTT0");'></div>
+</div>
+</div>
+<div class="flex flex-col gap-8 lg:col-span-2">
+<div class="flex flex-col gap-4">
+<h1 class="text-primary text-2xl font-bold leading-tight tracking-[-0.015em]">About Me</h1>
+<p class="text-white/80 text-base font-normal leading-relaxed">
+                                    My name is Bonface Nyakundi, a multidisciplinary creative professional specializing in UI/UX Design, Graphic Design, Digital Marketing, and Brand Identity Development. Based in Nairobi, Kenya, I help businesses and individuals bring their ideas to life through intentional, modern, and visually compelling design.
+                                </p>
+<p class="text-white/80 text-base font-normal leading-relaxed">
+                                    I believe design is more than aesthetics—it is communication, problem-solving, and experience shaping. Over the years, I’ve developed a unique creative style that merges strong visuals with functional design thinking. Whether it’s a full UI system, a brand identity, a social media campaign, or product visuals, my goal is always the same: to deliver work that is clean, impactful, and results-driven. I have experience designing apps, websites, dashboards, marketing campaigns, brand kits, UI kits, product creatives, and digital visuals for a wide range of clients. I’m also passionate about AI-assisted design and enhancing images, products, and UI concepts using modern tools.
+                                </p>
+</div>
+<div class="w-full h-px bg-gradient-to-r from-transparent via-[#FFD700]/50 to-transparent"></div>
+<div class="flex flex-col gap-4">
+<h3 class="text-primary text-xl font-bold leading-tight tracking-[-0.015em]">Core Skills &amp; Strengths</h3>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">design_services</span><p class="text-white">UI/UX Design (Mobile &amp; Web)</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">palette</span><p class="text-white">Graphic Design &amp; Visual Communication</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">verified</span><p class="text-white">Branding &amp; Identity Systems</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">campaign</span><p class="text-white">Digital Marketing Creatives</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">layers</span><p class="text-white">Figma, Photoshop, Canva</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">auto_awesome</span><p class="text-white">AI Photo Enhancement &amp; Retouching</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">view_quilt</span><p class="text-white">Design System Development</p></div>
+<div class="flex items-start gap-3"><span class="material-symbols-outlined text-[#FFD700] mt-0.5">rule</span><p class="text-white">Wireframing, Prototyping &amp; Usability Planning</p></div>
+</div>
+</div>
+<div class="w-full h-px bg-gradient-to-r from-transparent via-[#FFD700]/50 to-transparent"></div>
+<div class="flex flex-col gap-4">
+<h3 class="text-primary text-xl font-bold leading-tight tracking-[-0.015em]">My Creative Philosophy</h3>
+<blockquote class="border-l-4 border-[#FFD700] pl-6 italic text-white/90">
+                                    I design with the intention to inspire, communicate, and elevate the brands I work with. Every project I take on is approached with creativity, clarity, and excellence.
+                                </blockquote>
+</div>
+<div class="mt-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-12 px-6 bg-[#2a1a3d] text-white text-base font-bold leading-normal tracking-[0.015em] glossy-border shadow-lg shadow-black/20 hover:shadow-[#FFD700]/20 hover:text-[#FFD700] transition-all duration-300 group">
+<span class="truncate">View My Work</span>
+<span class="material-symbols-outlined ml-2 transform transition-transform duration-300 group-hover:translate-x-1">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+</div>
+</body></html>
